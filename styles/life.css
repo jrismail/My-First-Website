@@ -1,0 +1,61 @@
+*{
+   box-sizing: border-box;
+   margin: 20px 20px 30px 20px;
+}
+body{
+    justify-content: none;
+    align-items:center ;
+    height: 100vh;
+    background-color: rgb(48, 129, 250);
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    
+}
+
+.header{
+    background-color: aqua;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.life{
+    background-color: aquamarine;
+    border-radius: 25px;
+    border-top: 20px solid aqua;
+    border-width: 20px;
+    box-shadow: 10px 10px 10px rgb(0, 60, 255);
+    align-items: baseline;
+
+}
+.life h2{
+    text-align: center;
+}
+.life h3{
+    text-align: center;
+
+}
+
+.life p{
+    text-decoration: none;
+}
+
+
+input{
+    background-color: cadetblue;
+    color: aliceblue;
+    font-size: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 3px 20px aqua;
+    
+    
+}
+.ultra{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr))
+
+}
+
+.fuk{text-align: center;
+
+}
+
